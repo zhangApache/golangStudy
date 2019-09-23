@@ -15,7 +15,7 @@ func arryTest() {
 	log.Println(doubleArray[0][3])
 	log.Println(easyArray[1][2])
 }
-//nil 切片和长度为0的切片是不相等的
+//nil切片和长度为0的切片是不相等的
 func sliceTest()  {
 	// 声明一个含有10个元素元素类型为byte的数组
 	var ar = [10]byte {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'}
